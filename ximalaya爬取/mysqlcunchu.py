@@ -19,4 +19,4 @@ def execute1_sql(sql, conn):
     cursor = conn.cursor()
     cursor.execute(sql)
     id=cursor.fetchone()[0]
-    return id
+    return
